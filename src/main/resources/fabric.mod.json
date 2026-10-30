@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"cleanmenu","version":"${version}","name":"Clean Menu","description":"A compact Minecraft title screen.","environment":"client","license":"Apache-2.0","mixins":["cleanmenu.mixins.json"],"depends":{"fabricloader":">=0.19.5","minecraft":"26.3","java":">=25","modmenu":"*"}}
