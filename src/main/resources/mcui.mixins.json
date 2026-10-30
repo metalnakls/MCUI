@@ -1,1 +1,1 @@
-{"required":true,"package":"mcui.mixin","compatibilityLevel":"JAVA_25","client":["ScreenMixin","BackgroundMixin","TitleMixin","LogoMixin","VideoMixin"],"injectors":{"defaultRequire":1}}
+{"required":true,"package":"mcui.mixin","compatibilityLevel":"JAVA_25","client":["ScreenMixin","BackgroundMixin","TitleMixin","LogoMixin","VideoMixin","WorldWarningMixin"],"injectors":{"defaultRequire":1}}

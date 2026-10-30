@@ -4,6 +4,8 @@ Standalone Fabric 26.3 client mod, requiring Mod Menu. It does not depend on Met
 
 The centered title menu uses vanilla’s 200-pixel width. Singleplayer and multiplayer split the first row; mods, options, and quit each have their own full-width row. Original world and multiplayer callbacks, including multiplayer restrictions, are retained. Title-screen Realms, friends, language/accessibility shortcuts, copyright/footer text, and the Java Edition subtitle are hidden. Options still contains language, accessibility, and credits.
 
+Existing worlds with experimental datapacks open without repeating the experimental backup confirmation. Customized-world, version-mismatch and invalid-pack prompts are retained.
+
 Video Settings includes **Menu panorama** and vanilla **Panorama Speed**. Disabling the panorama uses a plain dark background; speed zero keeps the panorama still. The panorama switch is saved to `config/mcui.properties`; speed uses Minecraft's own settings. Minecraft supplies one panorama scene; resource packs can replace it.
 
 From the repository root, with JDK 25:
