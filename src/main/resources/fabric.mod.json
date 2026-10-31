@@ -1,1 +1,25 @@
-{"schemaVersion":1,"id":"cleanmenu","version":"${version}","name":"Clean Menu","description":"A compact Minecraft title screen.","environment":"client","license":"Apache-2.0","mixins":["cleanmenu.mixins.json"],"depends":{"fabricloader":">=0.19.5","minecraft":"26.3","java":">=25","modmenu":"*"}}
+{
+  "schemaVersion": 1,
+  "id": "cleanmenu",
+  "version": "${version}",
+  "name": "MCUI",
+  "description": "Compact Minecraft menus and configurable panorama.",
+  "environment": "client",
+  "license": "Apache-2.0",
+  "mixins": [
+    "cleanmenu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "modmenu": "*"
+  },
+  "authors": [
+    "metalnakls"
+  ],
+  "contact": {
+    "sources": "https://github.com/metalnakls/MCUI",
+    "issues": "https://github.com/metalnakls/MCUI/issues"
+  }
+}

@@ -6,4 +6,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = 'clean-menu'
+rootProject.name = 'mcui'
