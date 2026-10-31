@@ -8,12 +8,12 @@ Existing worlds with experimental datapacks open without repeating the experimen
 
 Video Settings includes **Menu panorama** and vanilla **Panorama Speed**. Disabling the panorama uses a plain dark background; speed zero keeps the panorama still. The panorama switch is saved to `config/mcui.properties`; speed uses Minecraft's own settings. Minecraft supplies one panorama scene; resource packs can replace it.
 
-From the repository root, with JDK 25:
+With JDK 25:
 
 ```
-./gradlew -p ui/mcui build
+./gradlew build
 ```
 
-The local build uses the installed Mod Menu 21.0.0-beta.1 JAR as a compile-only dependency. Install `ui/mcui/build/libs/mcui-0.1.0.jar` alongside Mod Menu and restart Minecraft.
+Mod Menu 21.0.0-beta.1 is fetched from its public Maven repository. Install `build/libs/mcui-0.1.0.jar` alongside Mod Menu and restart Minecraft. Replace the previous UI mod JAR rather than installing both. The mod ID is `mcui`.
 
 Manual check: title layout at different GUI scales, keyboard tab/enter navigation, all five actions, return from child screens, and panorama toggle/speed persistence after restarting. Live UI verification has not been performed by the agent.
