@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mcui",
+  "id": "cleanmenu",
   "version": "${version}",
   "name": "MCUI",
   "description": "Compact Minecraft menus and configurable panorama.",

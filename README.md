@@ -14,6 +14,6 @@ With JDK 25:
 ./gradlew build
 ```
 
-Mod Menu 21.0.0-beta.1 is fetched from its public Maven repository. Install `build/libs/mcui-0.1.0.jar` alongside Mod Menu and restart Minecraft. Replace the previous UI mod JAR rather than installing both. The mod ID is `mcui`.
+Mod Menu 21.0.0-beta.1 is fetched from its public Maven repository. Install `build/libs/mcui-2.jar` alongside Mod Menu and restart Minecraft. Replace the previous UI mod JAR rather than installing both. The internal mod identity remains compatible with existing launcher updates.
 
 Manual check: title layout at different GUI scales, keyboard tab/enter navigation, all five actions, return from child screens, and panorama toggle/speed persistence after restarting. Live UI verification has not been performed by the agent.

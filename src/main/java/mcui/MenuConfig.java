@@ -8,8 +8,9 @@ public final class MenuConfig {
  private static final Path FILE=FabricLoader.getInstance().getConfigDir().resolve("mcui.properties");
  public static boolean panorama=load();
  private static boolean load(){
-  if(!Files.exists(FILE))return true;
-  try(var in=Files.newInputStream(FILE)){var p=new Properties();p.load(in);return Boolean.parseBoolean(p.getProperty("panorama","true"));}
+  Path source=Files.exists(FILE)?FILE:FabricLoader.getInstance().getConfigDir().resolve("clean-menu.properties");
+  if(!Files.exists(source))return true;
+  try(var in=Files.newInputStream(source)){var p=new Properties();p.load(in);return Boolean.parseBoolean(p.getProperty("panorama","true"));}
   catch(IOException e){LoggerFactory.getLogger("mcui").warn("Could not read menu settings",e);return true;}
  }
  public static void panorama(boolean value){

@@ -1,5 +1,5 @@
 plugins { id 'net.fabricmc.fabric-loom' version "${loom_version}" }
-version = '0.1.0'
+version = '2'
 group = 'mcui'
 repositories { maven { url = 'https://maven.terraformersmc.com/releases/' } }
 dependencies {
